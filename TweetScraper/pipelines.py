@@ -62,8 +62,8 @@ class SavetoMySQLPipeline(object):
     ''' pipeline that save data to mysql '''
     def __init__(self):
         # connect to mysql server
-        user = input("MySQL User: ")
-        pwd = input("Password: ")
+        user = input("MySQL User: Tweets ")
+        pwd = input("Password: Live1256 ")
         self.cnx = mysql.connector.connect(user=user, password=pwd,
                                 host='localhost',
                                 database='tweets', buffered=True)
